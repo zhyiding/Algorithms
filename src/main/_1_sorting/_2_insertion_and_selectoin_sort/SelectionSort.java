@@ -2,6 +2,10 @@ package _1_sorting._2_insertion_and_selectoin_sort;
 
 import java.util.Arrays;
 
+/* *
+ * Implementation of Selection Sort
+ * Time complexity = O(N^2)
+ */
 public class SelectionSort {
 
     public static void sort(int[] nums) {

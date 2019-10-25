@@ -1,22 +1,21 @@
-package _1_sorting._1_bubble_sort;
+package _1_sorting._2_insertion_and_selectoin_sort;
 
 import java.util.Arrays;
 
-/* *
- * Implementation of bubble sort algorithm.
- * Time complexity = O(N^2)
- */
-public class BubbleSort {
+public class SelectionSort {
 
-    // sort increasingly
     public static void sort(int[] nums) {
         if (nums.length <= 1) return;
-        for (int i = 1; i < nums.length; i++) {
-            for (int j = i; j > 0; j--) {
-                if (nums[j] < nums[j - 1]) {
-                    swap(nums, j, j - 1);
+        for (int i = 0; i < nums.length; i++) {
+            int minVal = Integer.MAX_VALUE;
+            int minIdx = i;
+            for (int j = i; j < nums.length; j++) {
+                if (nums[j] < minVal) {
+                    minVal = nums[j];
+                    minIdx = j;
                 }
             }
+            swap(nums, minIdx, i);
         }
     }
 

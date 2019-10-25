@@ -3,4 +3,4 @@ Personal created algorithms &amp; data structures reviewing guideline, good for 
 
 Most of the quetions in this repository can be found on [LeetCode](https://leetcode.com/problemset/all/). I added question IDs before each main class, so that you can go and search the corresponding problem descriptions.
 
-*Good luck and happy coding!*👍
+*Good luck and happy coding!👍*

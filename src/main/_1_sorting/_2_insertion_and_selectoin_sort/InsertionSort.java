@@ -6,6 +6,8 @@ import java.util.Arrays;
 /* *
  * Implementation of Insertion Sort
  * Time complexity = O(N^2)
+ *
+ * Similiar to LeetCode #147 except they use ListNode
  */
 public class InsertionSort {
 

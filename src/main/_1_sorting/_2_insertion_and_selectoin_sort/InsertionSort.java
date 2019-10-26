@@ -3,7 +3,7 @@ package _1_sorting._2_insertion_and_selectoin_sort;
 
 import java.util.Arrays;
 
-/* *
+/**
  * Implementation of Insertion Sort
  * Time complexity = O(N^2)
  *

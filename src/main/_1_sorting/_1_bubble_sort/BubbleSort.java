@@ -2,7 +2,7 @@ package _1_sorting._1_bubble_sort;
 
 import java.util.Arrays;
 
-/* *
+/**
  * Implementation of bubble sort algorithm.
  * Time complexity = O(N^2)
  */

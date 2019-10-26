@@ -3,7 +3,7 @@ package _1_sorting._3_merge_sort;
 
 import utils.ListNode;
 
-/* *
+/**
  * Implementation of Merge Sort, using the idea of Divide and Conquer (see more in package #12)
  * Time complexity = O(N*Log(N))
  *

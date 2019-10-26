@@ -2,7 +2,7 @@ package _1_sorting._4_heap_sort;
 
 import java.util.Arrays;
 
-/* *
+/**
  * Implementation of Heap Sort
  * Time complexity = O(N*Log(N))
  */

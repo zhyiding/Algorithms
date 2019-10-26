@@ -3,7 +3,7 @@ package _1_sorting._2_insertion_and_selectoin_sort;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class TestInsertionandSelectionSort {
+public class TestInsertionAndSelectionSort {
 
     @Test
     public void testInsertionSortSuccess() {

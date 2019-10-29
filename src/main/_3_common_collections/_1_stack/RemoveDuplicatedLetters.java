@@ -2,6 +2,8 @@ package _3_common_collections._1_stack;
 
 import java.util.Stack;
 
+
+// #316
 public class RemoveDuplicatedLetters {
     public String removeDuplicateLetters(String s) {
         int[] count = new int[26];
